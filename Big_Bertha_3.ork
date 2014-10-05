@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='utf-8'?>
+<openrocket version="1.4" creator="OpenRocket 12.03">
+  <rocket>
+    <name>Big Bertha</name>
+    <motorconfiguration configid="cd9b6c79-e61e-44c1-96cd-08666a014737" default="true"/>
+    <referencetype>maximum</referencetype>
+
+    <subcomponents>
+      <stage>
+        <name>Sustainer</name>
+
+        <subcomponents>
+          <nosecone>
+            <name>Nose cone</name>
+            <overridemass>0.011300000000000001</overridemass>
+            <overridesubcomponents>false</overridesubcomponents>
+            <finish>normal</finish>
+            <material type="bulk" density="1200.0">Polycarbonate (Lexan)</material>
+            <length>0.065</length>
+            <thickness>0.0010</thickness>
+            <shape>ellipsoid</shape>
+            <shapeclipped>false</shapeclipped>
+            <aftradius>0.020499999999999997</aftradius>
+            <aftshoulderradius>0.02</aftshoulderradius>
+            <aftshoulderlength>0.02</aftshoulderlength>
+            <aftshoulderthickness>0.0010</aftshoulderthickness>
+            <aftshouldercapped>false</aftshouldercapped>
+          </nosecone>
+
+          <bodytube>
+            <name>Body tube</name>
+            <overridemass>0.027</overridemass>
+            <overridesubcomponents>false</overridesubcomponents>
+            <finish>normal</finish>
+            <material type="bulk" density="680.0">Cardboard</material>
+            <length>0.457</length>
+            <thickness>4.99999999999997E-4</thickness>
+            <radius>auto</radius>
+
+            <subcomponents>
+              <innertube>
+                <name>Inner Tube</name>
+                <position type="bottom">0.0</position>
+                <overridemass>0.004200000000000001</overridemass>
+                <overridesubcomponents>false</overridesubcomponents>
+                <material type="bulk" density="680.0">Cardboard</material>
+                <length>0.22100000000000003</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.0095</outerradius>
+                <thickness>5.000000000000004E-4</thickness>
+                <clusterconfiguration>single</clusterconfiguration>
+                <clusterscale>1.0</clusterscale>
+                <clusterrotation>0.0</clusterrotation>
+                <motormount>
+                  <motor configid="cd9b6c79-e61e-44c1-96cd-08666a014737">
+                    <type>single</type>
+                    <manufacturer>Estes</manufacturer>
+                    <digest>c8743ef3fa99e14a89885cbe0ead47b2</digest>
+                    <designation>C6</designation>
+                    <diameter>0.018</diameter>
+                    <length>0.07</length>
+                    <delay>5.0</delay>
+                  </motor>
+                  <ignitionevent>automatic</ignitionevent>
+                  <ignitiondelay>0.0</ignitiondelay>
+                  <overhang>0.0</overhang>
+                </motormount>
+              </innertube>
+
+              <centeringring>
+                <name>Centering ring</name>
+                <position type="bottom">-0.0060</position>
+                <overridemass>8.0E-4</overridemass>
+                <overridesubcomponents>false</overridesubcomponents>
+                <material type="bulk" density="680.0">Cardboard</material>
+                <length>0.00115</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>auto</outerradius>
+                <innerradius>auto</innerradius>
+              </centeringring>
+
+              <centeringring>
+                <name>Centering ring</name>
+                <position type="bottom">-0.21600000000000003</position>
+                <overridemass>8.0E-4</overridemass>
+                <overridesubcomponents>false</overridesubcomponents>
+                <material type="bulk" density="680.0">Cardboard</material>
+                <length>0.00115</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>auto</outerradius>
+                <innerradius>auto</innerradius>
+              </centeringring>
+
+              <freeformfinset>
+                <name>Freeform fin set</name>
+                <position type="bottom">0.0</position>
+                <finish>normal</finish>
+                <material type="bulk" density="250.0">Big Bertha Fin Wood</material>
+                <fincount>4</fincount>
+                <rotation>0.0</rotation>
+                <thickness>0.0031</thickness>
+                <crosssection>square</crosssection>
+                <cant>0.0</cant>
+                <finpoints>
+                  <point x="0.0" y="0.0"/>
+                  <point x="0.077" y="0.04"/>
+                  <point x="0.16399999999999998" y="0.05"/>
+                  <point x="0.16399999999999998" y="0.028999999999999998"/>
+                  <point x="0.094" y="0.0"/>
+                </finpoints>
+              </freeformfinset>
+
+              <launchlug>
+                <name>Launch lug</name>
+                <position type="bottom">-0.094</position>
+                <overridemass>3.0E-4</overridemass>
+                <overridesubcomponents>false</overridesubcomponents>
+                <finish>normal</finish>
+                <material type="bulk" density="1200.0">Polycarbonate (Lexan)</material>
+                <radius>0.0022500000000000003</radius>
+                <length>0.126</length>
+                <thickness>2.5E-4</thickness>
+                <radialdirection>45.0</radialdirection>
+              </launchlug>
+
+              <parachute>
+                <name>Parachute</name>
+                <position type="top">0.04</position>
+                <overridemass>0.0050</overridemass>
+                <overridesubcomponents>false</overridesubcomponents>
+                <packedlength>0.025</packedlength>
+                <packedradius>0.0125</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <cd>auto</cd>
+                <deployevent>ejection</deployevent>
+                <deployaltitude>200.0</deployaltitude>
+                <deploydelay>0.0</deploydelay>
+                <material type="surface" density="0.015">Polyethylene (thin)</material>
+                <diameter>0.47000000000000003</diameter>
+                <linecount>6</linecount>
+                <linelength>0.45</linelength>
+                <linematerial type="line" density="3.0E-4">Thread (heavy-duty)</linematerial>
+              </parachute>
+
+              <shockcord>
+                <name>Shock cord</name>
+                <position type="top">0.07</position>
+                <overridemass>0.0044</overridemass>
+                <overridesubcomponents>false</overridesubcomponents>
+                <packedlength>0.025</packedlength>
+                <packedradius>0.0125</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <cordlength>0.79</cordlength>
+                <material type="line" density="0.0043">Elastic cord (flat  6mm, 1/4 in)</material>
+              </shockcord>
+
+              <masscomponent>
+                <name>Engine Hook</name>
+                <position type="bottom">0.012</position>
+                <packedlength>0.08199999999999999</packedlength>
+                <packedradius>0.0010</packedradius>
+                <radialposition>0.009000000000000001</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <mass>0.0014</mass>
+              </masscomponent>
+            </subcomponents>
+          </bodytube>
+        </subcomponents>
+      </stage>
+
+      <stage>
+        <name>Booster stage</name>
+        <separationevent>upperignition</separationevent>
+        <separationdelay>0.0</separationdelay>
+
+        <subcomponents>
+          <bodytube>
+            <name>Body tube</name>
+            <finish>normal</finish>
+            <material type="bulk" density="680.0">Cardboard</material>
+            <length>0.22</length>
+            <thickness>4.99999999999997E-4</thickness>
+            <radius>auto</radius>
+
+            <subcomponents>
+              <innertube>
+                <name>Booster Inner Tube</name>
+                <position type="bottom">0.0</position>
+                <overridemass>0.004200000000000001</overridemass>
+                <overridesubcomponents>false</overridesubcomponents>
+                <material type="bulk" density="680.0">Cardboard</material>
+                <length>0.22100000000000003</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.0095</outerradius>
+                <thickness>5.000000000000004E-4</thickness>
+                <clusterconfiguration>single</clusterconfiguration>
+                <clusterscale>1.0</clusterscale>
+                <clusterrotation>0.0</clusterrotation>
+                <motormount>
+                  <motor configid="cd9b6c79-e61e-44c1-96cd-08666a014737">
+                    <type>single</type>
+                    <manufacturer>Estes</manufacturer>
+                    <digest>c8743ef3fa99e14a89885cbe0ead47b2</digest>
+                    <designation>C6</designation>
+                    <diameter>0.018</diameter>
+                    <length>0.07</length>
+                    <delay>0.0</delay>
+                  </motor>
+                  <ignitionevent>automatic</ignitionevent>
+                  <ignitiondelay>0.0</ignitiondelay>
+                  <overhang>0.0</overhang>
+                </motormount>
+              </innertube>
+
+              <centeringring>
+                <name>Centering ring</name>
+                <position type="bottom">-0.0060</position>
+                <overridemass>8.0E-4</overridemass>
+                <overridesubcomponents>false</overridesubcomponents>
+                <material type="bulk" density="680.0">Cardboard</material>
+                <length>0.00115</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>auto</outerradius>
+                <innerradius>auto</innerradius>
+              </centeringring>
+
+              <centeringring>
+                <name>Centering ring</name>
+                <position type="bottom">-0.21600000000000003</position>
+                <overridemass>8.0E-4</overridemass>
+                <overridesubcomponents>false</overridesubcomponents>
+                <material type="bulk" density="680.0">Cardboard</material>
+                <length>0.00115</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>auto</outerradius>
+                <innerradius>auto</innerradius>
+              </centeringring>
+
+              <freeformfinset>
+                <name>Freeform fin set</name>
+                <position type="bottom">0.0</position>
+                <finish>normal</finish>
+                <material type="bulk" density="250.0">Big Bertha Fin Wood</material>
+                <fincount>4</fincount>
+                <rotation>0.0</rotation>
+                <thickness>0.0031</thickness>
+                <crosssection>square</crosssection>
+                <cant>0.0</cant>
+                <finpoints>
+                  <point x="0.0" y="0.0"/>
+                  <point x="0.077" y="0.04"/>
+                  <point x="0.16399999999999998" y="0.05"/>
+                  <point x="0.16399999999999998" y="0.028999999999999998"/>
+                  <point x="0.094" y="0.0"/>
+                </finpoints>
+              </freeformfinset>
+
+              <launchlug>
+                <name>Launch lug</name>
+                <position type="bottom">-0.094</position>
+                <overridemass>3.0E-4</overridemass>
+                <overridesubcomponents>false</overridesubcomponents>
+                <finish>normal</finish>
+                <material type="bulk" density="1200.0">Polycarbonate (Lexan)</material>
+                <radius>0.0022500000000000003</radius>
+                <length>0.126</length>
+                <thickness>2.5E-4</thickness>
+                <radialdirection>45.0</radialdirection>
+              </launchlug>
+
+              <masscomponent>
+                <name>Engine Hook</name>
+                <position type="bottom">0.012</position>
+                <packedlength>0.08199999999999999</packedlength>
+                <packedradius>0.0010</packedradius>
+                <radialposition>0.009000000000000001</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <mass>0.0014</mass>
+              </masscomponent>
+            </subcomponents>
+          </bodytube>
+        </subcomponents>
+      </stage>
+    </subcomponents>
+  </rocket>
+
+  <simulations>
+    <simulation status="loaded">
+      <name>Simulation 1</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>cd9b6c79-e61e-44c1-96cd-08666a014737</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>0.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>45.0</launchlatitude>
+        <launchlongitude>0.0</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="isa"/>
+        <timestep>0.05</timestep>
+      </conditions>
+      <flightdata maxaltitude="266.96" maxvelocity="74.721" maxacceleration="118.02" maxmach="0.22158" timetoapogee="7.9821" flighttime="94.115" groundhitvelocity="3.378" launchrodvelocity="10.54" deploymentvelocity="9.5648">
+      </flightdata>
+    </simulation>
+  </simulations>
+</openrocket>
