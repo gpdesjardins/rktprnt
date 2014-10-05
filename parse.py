@@ -1,7 +1,12 @@
 import xml.etree.ElementTree as ET
-tree = ET.parse('Big_Bertha_3.ork')
+tree = ET.parse('estes_patriot.rkt')
 root = tree.getroot()
 
-for nosecone in root.iter('nosecone'):
-    length = nosecone.find('length').text
-    print "length: " + length
+for NoseCone in root.iter('NoseCone'):
+    Len = NoseCone.find('Len').text
+    print( "Length = " + Len + ";")
+	
+for FinSet in root.iter('FinSet'):
+	Thickness = FinSet.find('Thickness').text
+	print("Thickness = " + Thickness + ";")
+
